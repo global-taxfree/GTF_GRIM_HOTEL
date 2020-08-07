@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <DEFAULT_LANG>KO</DEFAULT_LANG>
+  <SERVER_URL>https://testapi.gtfetrs.com:4443/</SERVER_URL>
+  <DEV>Y</DEV>
+</config>

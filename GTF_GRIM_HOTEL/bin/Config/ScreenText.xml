@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ScreenText>
+
+  <KO>
+    <IssuePanel>
+      <LBL_PASSPORTNAME></LBL_PASSPORTNAME>
+      <LBL_PASSPORT_NO>여권번호</LBL_PASSPORT_NO>
+      
+    </IssuePanel>
+    <DetailSlipInfo>
+    </DetailSlipInfo>
+    <ItemForm>
+    </ItemForm>
+    <Login>
+    </Login>
+    <PassportInfoForm>
+    </PassportInfoForm>
+    <PreferencesPanel>
+    </PreferencesPanel>
+    <SearchPanel>
+    </SearchPanel>
+  </KO>
+  <EN>
+    <IssuePanel>
+      <LBL_PASSPORTNAME></LBL_PASSPORTNAME>
+    </IssuePanel>
+    <DetailSlipInfo>
+    </DetailSlipInfo>
+    <ItemForm>
+    </ItemForm>
+    <Login>
+    </Login>
+    <PassportInfoForm>
+    </PassportInfoForm>
+    <PreferencesPanel>
+    </PreferencesPanel>
+    <SearchPanel>
+    </SearchPanel>
+  </EN>
+  <JA>
+    <IssuePanel>
+      
+	  
+	  <BTN_CLEAR>初期化[F5]</BTN_CLEAR>
+	  
+	  <BTN_SCAN>旅券 スキャン[F1]</BTN_SCAN>
+	  <BTN_PASSPORT_MANUAL>旅券 手入力[F2]</BTN_PASSPORT_MANUAL>	  
+	  <BTN_SHOP_SEARCH>檢索[Alt+Q]</BTN_SHOP_SEARCH>
+	  
+	  <LBL_REFUND_DATE>取引日</LBL_REFUND_DATE>
+	  <LBL_REFUND_TYPE>還付方法</LBL_REFUND_TYPE>
+	  <LBL_PASSPORT_NAME>購入者氏名 </LBL_PASSPORT_NAME>
+	  <LBL_PASSPORT_NO>番号</LBL_PASSPORT_NO>
+	  <LBL_PASSPORT_NAT>国籍</LBL_PASSPORT_NAT>
+	  <LBL_PASSPORT_SEX>性別</LBL_PASSPORT_SEX>
+	  <LBL_PASSPORT_BIRTH>生年月日</LBL_PASSPORT_BIRTH>
+	  <LBL_PASSPORT_EXP>有効期限</LBL_PASSPORT_EXP>
+	  <LBL_PASSPORT_TYPE>旅券等の種類</LBL_PASSPORT_TYPE>
+	  <LBL_PASSPORT_RES>在留資格 </LBL_PASSPORT_RES>
+	  <LBL_PASSPORT_LAND>上陸年月日</LBL_PASSPORT_LAND>
+	  
+	  <LBL_SHOP_PARTNER>パートナー名</LBL_SHOP_PARTNER>
+	  <LBL_SHOP_GROUP>商業施設名</LBL_SHOP_GROUP>
+	  
+	  <LBL_SHOP_NAME>輸出物品販売場名</LBL_SHOP_NAME>
+	  <LBL_SHOP_TYPE>業種</LBL_SHOP_TYPE>
+	  <LBL_SHOP_ADDR>販売場所在地</LBL_SHOP_ADDR>
+	  <LBL_SHOP_PHONE>電話番号</LBL_SHOP_PHONE>
+	  <LBL_TAX_OFFICE>管轄税務署</LBL_TAX_OFFICE>
+	  <LBL_RCT_NO>レシート番号</LBL_RCT_NO>
+	  <BTN_ITEM_ADD>物品情報[Alt+W]</BTN_ITEM_ADD>
+	  
+	  <BTN_SUBMIT>登録[Alt+A]</BTN_SUBMIT>
+	  <LBL_CHECKSUM>合算伝票発行</LBL_CHECKSUM>
+	  <LBL_SHOP_MANAGER>担当者</LBL_SHOP_MANAGER>
+	  <GRD_ITEMS>レシート;番号;輸出物品販売場名;品目種類;品目大分類;品目中分類;品目名;;数量;単価;免税額;販売価格;予想返金額;削除</GRD_ITEMS>
+    </IssuePanel>
+    <SearchShop>
+		<LBL_SHOP_NAME>輸出物品販売場名</LBL_SHOP_NAME>
+		<GRD_ITEMS>番号;パートナー名;商業施設名;輸出物品販売場名</GRD_ITEMS>
+    </SearchShop>
+    <ItemForm>
+		<BTN_INIT>初期化[F5]</BTN_INIT>
+		<BTN_SAVE>保存[Alt+A]</BTN_SAVE>
+		<BTN_CLOSE>閉じる[ESC]</BTN_CLOSE>
+		<LBL_SHOP_NAME>輸出物品販売場名</LBL_SHOP_NAME>
+		
+		<LBL_GOODS_AMT>一般物品</LBL_GOODS_AMT>
+		<LBL_CONSUMS_AMT>消耗品</LBL_CONSUMS_AMT>
+		
+		<LBL_GOODS_BUY_AMT>販売価格</LBL_GOODS_BUY_AMT>
+		<LBL_CONSUMS_BUY_AMT>販売価格</LBL_CONSUMS_BUY_AMT>
+		
+		<LBL_GOODS_TAX_AMT>免税額</LBL_GOODS_TAX_AMT>
+		<LBL_CONSUMS_TAX_AMT>免税額</LBL_CONSUMS_TAX_AMT>
+		
+		<LBL_TOTAL_AMT>合計</LBL_TOTAL_AMT>
+		<LBL_TOTAL_BUY_AMT>販売価格</LBL_TOTAL_BUY_AMT>
+		<LBL_TOTAL_REFUND_AMT>予想返金額</LBL_TOTAL_REFUND_AMT>
+		<LBL_TOTAL_TAX_AMT>免税額</LBL_TOTAL_TAX_AMT>
+		
+		<BTN_ADD_GOODS>行追加[F1]</BTN_ADD_GOODS>
+		<BTN_ADD_CONSUM>行追加[F2]</BTN_ADD_CONSUM>
+		
+		<LBL_GOODS>● 一般物品</LBL_GOODS>
+		<LBL_CONSUMS>● 消耗品</LBL_CONSUMS>
+		
+		<GRD_GOODS>番号;品目大分類;品目中分類;品目名;数量;単価;免税額;販売価格;免税形態;;削除</GRD_GOODS>
+		<GRD_CONSUM>番号;品目大分類;品目中分類;品目名;数量;単価;免税額;販売価格;免税形態;;削除</GRD_CONSUM>
+		
+    </ItemForm>
+    <Login>
+    </Login>
+    <PassportInfoForm>
+		<LBL_PASSPORT_NAME>購入者氏名 </LBL_PASSPORT_NAME>
+		<LBL_PASSPORT_NO>番号</LBL_PASSPORT_NO>
+		<LBL_PASSPORT_NAT>国籍</LBL_PASSPORT_NAT>
+		<LBL_PASSPORT_SEX>性別</LBL_PASSPORT_SEX>
+		<LBL_PASSPORT_BIRTH>生年月日</LBL_PASSPORT_BIRTH>
+		<LBL_PASSPORT_EXP>有効期限</LBL_PASSPORT_EXP>
+		<LBL_PASSPORT_TYPE>旅券等の種類</LBL_PASSPORT_TYPE>
+		<LBL_PASSPORT_RES>在留資格 </LBL_PASSPORT_RES>
+		<LBL_PASSPORT_LAND>上陸年月日</LBL_PASSPORT_LAND>
+
+		<BTN_OK>保存[Enter]</BTN_OK>
+		<BTN_CLOSE>閉じる[ESC]</BTN_CLOSE>
+    </PassportInfoForm>
+    <PreferencesPanel>
+		<BTN_SAVE>保存</BTN_SAVE>
+    </PreferencesPanel>
+	<SlipDetailInfo>
+		<BTN_CLOSE>閉じる</BTN_CLOSE>
+		
+		<LBL_PASSPORT_NAME>購入者氏名</LBL_PASSPORT_NAME>
+		<LBL_PASSPORT_NO>番号</LBL_PASSPORT_NO>
+		<LBL_PASSPORT_NAT>国籍</LBL_PASSPORT_NAT>
+		<LBL_PASSPORT_SEX>性別</LBL_PASSPORT_SEX>
+		<LBL_PASSPORT_BIRTH>生年月日</LBL_PASSPORT_BIRTH>
+		<LBL_PASSPORT_EXP>有効期限</LBL_PASSPORT_EXP>
+		<LBL_PASSPORT_RES>在留資格</LBL_PASSPORT_RES>
+		<LBL_PASSPORT_TYPE>旅券等の種類</LBL_PASSPORT_TYPE>
+		<LBL_PASSPORT_LAND>上陸年月日</LBL_PASSPORT_LAND>
+		<LBL_BUYER_INFO>● 顧客基本情報</LBL_BUYER_INFO>
+		<LBL_SHOP_INFO>● 輸出物品販売場基本情報</LBL_SHOP_INFO>
+		<LBL_SHOP_PARTNER>パートナー名</LBL_SHOP_PARTNER>
+		<LBL_SHOP_GROUP>商業施設名</LBL_SHOP_GROUP>
+		<LBL_SHOP_NAME>輸出物品販売場名</LBL_SHOP_NAME>
+		
+		<LBL_SLIP_INFO>● 伝票情報閉じる</LBL_SLIP_INFO>
+		<LBL_SLIP_NO>伝票番号</LBL_SLIP_NO>
+		<LBL_SUM_NO>合算レシート番号</LBL_SUM_NO>
+		<LBL_SLIP_STATUS>発行状態</LBL_SLIP_STATUS>
+		<LBL_SLIP_REFUND_DATE>発行日</LBL_SLIP_REFUND_DATE>
+		<LBL_SLIP_REFUND_STATUS>還付状態</LBL_SLIP_REFUND_STATUS>
+		<LBL_SLIP_REFUND>還付日</LBL_SLIP_REFUND>
+		<BTN_REFUND>還付処理</BTN_REFUND>
+		<LBL_REFUND_PAYMENT>還付方法</LBL_REFUND_PAYMENT>
+		<LBL_REFUND_USER>還付作業者</LBL_REFUND_USER>
+		<LBL_TOTAL_INFO>● 合計情報</LBL_TOTAL_INFO>
+		<LBL_ITEM_TYPE>品目分類</LBL_ITEM_TYPE>
+		<LBL_ITEM_BUY_AMT>総販売価格</LBL_ITEM_BUY_AMT>
+		<LBL_ITEM_TAX_AMT>総免税額</LBL_ITEM_TAX_AMT>
+		<LBL_ITEM_FEE_AMT>総手数料</LBL_ITEM_FEE_AMT>
+		<LBL_ITEM_REFUND_AMT>総返金額</LBL_ITEM_REFUND_AMT>
+		<LBL_ITEM_GOODS_AMT>一般物品</LBL_ITEM_GOODS_AMT>
+		<LBL_ITEM_CONSUMS_AMT>消耗品</LBL_ITEM_CONSUMS_AMT>
+		<LBL_ITEM_TOTAL_AMT>合計</LBL_ITEM_TOTAL_AMT>
+		<GRD_ITEMS>番号;品目分類;品目大分類;品目中分類;品目名;数量;単価;免税額;手数料;返金額</GRD_ITEMS>
+		<LBL_NOTE>● メモ</LBL_NOTE>
+	</SlipDetailInfo>
+    <SearchPanel>
+		<BTN_SEND>サーバー送信</BTN_SEND>
+		<BTN_SEARCH>照会</BTN_SEARCH>
+		<BTN_CLOSING>業務終了</BTN_CLOSING>
+		<BTN_CLOSING_CANCEL>業務終了キャンセル</BTN_CLOSING_CANCEL>
+		
+		<BTN_QR_SCAN>QRスキャン</BTN_QR_SCAN>
+	
+		<LBL_REFUND_DATE>取引日</LBL_REFUND_DATE>
+		<LBL_REFUND_STATUS>還付状態</LBL_REFUND_STATUS>
+		<LBL_REFUND_SEND>サーバー送信</LBL_REFUND_SEND>
+		<LBL_SLIP_NO>レシート番号</LBL_SLIP_NO>
+		<LBL_REFUND_DATE></LBL_REFUND_DATE>
+		<GRD_SLIP>番号;サーバー送信;レシート番号;販売日;輸出物品販売場名;一般物品総販売金額;一般物品免税額;一般物品総返金額;消耗品総販売金額;消耗品免税額;消耗品総返金額;還付状態;伝票発行</GRD_SLIP>	
+    </SearchPanel>
+    
+	<SEARCHSHOP>店舗内検索</SEARCHSHOP>
+	<PRINTSLIPLANG_FORM>伝票出力言語選択</PRINTSLIPLANG_FORM>
+	<PASSPORTINFO_FORM>パスポート手記入力</PASSPORTINFO_FORM>
+	<ITMES_FORM>物品情報 登錄</ITMES_FORM>
+	<SLIPDETAILINFO>伝票内訳詳細情報</SLIPDETAILINFO>
+ 
+
+	<COMBO_ITEM_GOODS>一般物品</COMBO_ITEM_GOODS>
+	<COMBO_ITEM_CONSUMS>消耗品</COMBO_ITEM_CONSUMS>
+	
+	<COMBO_ITEM_CASH>現金</COMBO_ITEM_CASH>
+	<COMBO_ITEM_CARD>UPI</COMBO_ITEM_CARD>
+	<COMBO_ITEM_CARD_NO>カード番号</COMBO_ITEM_CARD_NO>
+	
+	<COMBO_ITEM_QQ>QQ</COMBO_ITEM_QQ>
+	
+	
+	<COMBO_ITEM_CN>中国語</COMBO_ITEM_CN>
+	<COMBO_ITEM_EN>英語</COMBO_ITEM_EN>
+	<COMBO_ITEM_KO>韓国語</COMBO_ITEM_KO>
+	
+	<COMBO_ITEM_ALL>全体</COMBO_ITEM_ALL>
+	
+	<COMBO_ITEM_PRINT>発行完了</COMBO_ITEM_PRINT>
+	<COMBO_ITEM_NO_PRINT>発行前</COMBO_ITEM_NO_PRINT>
+	
+	<COMBO_ITEM_REFUND>還付完了</COMBO_ITEM_REFUND>
+	<COMBO_ITEM_UNREFUND>還付前</COMBO_ITEM_UNREFUND>
+	
+	<COMBO_ITEM_SEND>転送完了</COMBO_ITEM_SEND>
+	<COMBO_ITEM_NO_SEND>送信前</COMBO_ITEM_NO_SEND>
+	
+	<COMBO_ITEM_IN_TAX>內稅</COMBO_ITEM_IN_TAX>
+	<COMBO_ITEM_OUT_TAX>外稅</COMBO_ITEM_OUT_TAX>
+	
+	<COMBO_ITEM_MALE>男性</COMBO_ITEM_MALE>
+	<COMBO_ITEM_FEMALE>女性</COMBO_ITEM_FEMALE>
+
+
+  </JA>
+
+</ScreenText>
+

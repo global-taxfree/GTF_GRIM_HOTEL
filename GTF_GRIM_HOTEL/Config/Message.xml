@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Message>
+  <KO>
+    <ISSUE_CONFIRM>\n전표를 발행하시겠습니까?</ISSUE_CONFIRM>
+    <ISSUE_SUCCESS>\n전표가 정상적으로 발행되었습니다.</ISSUE_SUCCESS>
+    <ISSUE_ERROR>\n전표 발행 시 오류가 발생했습니다.\n입력데이터를 확인 바랍니다.</ISSUE_ERROR>
+    
+    <COM_PRINTER_TYPE>\n프린터 종류를 선택해 주세요</COM_PRINTER_TYPE>
+    <COM_PRINTER>\n출력할 일반 프린터를 선택해 주세요</COM_PRINTER>
+    <COM_OPOS>\n출력할 영수증 프린터를 선택해 주세요</COM_OPOS>
+    <TXT_TML_ID>\n단말기 ID를 입력해 주세요.</TXT_TML_ID>
+    <CONFIG_SAVE_SUCCESS>\n환경설정이 저장되었습니다.</CONFIG_SAVE_SUCCESS>
+    <TMLID_ERROR>\n단말기 ID를 찾을 수 없습니다.</TMLID_ERROR>
+    <TMLID_ALERT>\n단말기 ID를 검증해 주시기 바랍니다.</TMLID_ALERT>
+    
+    <DATE_ERROR>\n발행기간을 정확히 입력해 주세요.</DATE_ERROR>
+    <DATE_OVER>\n발행기간 31 일 사이의 데이터만 검색이 가능합니다.</DATE_OVER>
+
+    <NO_SERACH_DATA>\n조회된 데이터가 없습니다.</NO_SERACH_DATA>
+    <PASSWORD_ERROR>\n비밀번호가 맞지 않습니다.</PASSWORD_ERROR>
+    <PASSPORT_ERROR>\n여권스캐너가 설치되어 있지 않습니다.</PASSPORT_ERROR>
+    <PASSPORT_REMOVE>\n여권을 여권스캐너에 삽입해 주세요.</PASSPORT_REMOVE>
+
+    <SIGNPAD_DAU_NOTFOUND>\n설정된 다우 사인패드를 찾지 못했습니다.\n다우 사인패드를 다시 연결해 주시기 바랍니다.\n계속해서 동일한 현상이 발생하면 드라이버를 다시 설치해 주시기 바랍니다.</SIGNPAD_DAU_NOTFOUND>
+    <SIGNPAD_ERROR>\n사인패드 동작 중 오류가 발생했습니다. \n다시 시도해 주시기 바랍니다.</SIGNPAD_ERROR>
+
+
+    <SYSTEM_INIT>\n환경설정을 해주시기 바랍니다.</SYSTEM_INIT>
+    <SIGNPAD_NOTHING>\n설정에서 사인패드가 선택되지 않았습니다.</SIGNPAD_NOTHING>
+    <SYSTEM_EXIT_CONFIRM>\n프로그램을 종료하시겠습니까?</SYSTEM_EXIT_CONFIRM>
+    <ERROR_NETWORK>\n통신상태가 원활하지 않습니다.\n잠시 뒤에 온라인 상태일때 거래하시기 바랍니다.\n계속해서 동일한 현상이 발생하면 PC 인터넷 연결상태를 확인해보시기 바랍니다.</ERROR_NETWORK>
+    
+    <REPRINT_CONFIRM>\n재출력 하시겠습니까?</REPRINT_CONFIRM>
+    <ERROR_NIGHT>\n숙박일은 1 ~ 30 박 사이가 되어야 합니다.</ERROR_NIGHT>
+
+    <ERROR_SALES_AMT>\n숙박금액을(3만원 이상) 입력해 주세요.</ERROR_SALES_AMT>
+    <ERROR_STD>\n일반객실 숙박금액을 입력해 주세요.</ERROR_STD>
+    <ERROR_SUT>\n스위트룸 숙박금액을 입력해 주세요.</ERROR_SUT>    
+    <ERROR_PRINT>\n출력 중 오류가 발생했습니다.\n프린터를 확인해 보시기 바랍니다.</ERROR_PRINT>
+    
+    <CANCEL_SUCCESS>\n정상적으로 취소되었습니다.</CANCEL_SUCCESS>    
+    <CANCEL_CONFIRM>\n전표를 취소하시겠습니까?</CANCEL_CONFIRM>    
+    <ERROR_PASSPORT>\n여권정보를 정확히 입력해 주세요</ERROR_PASSPORT>    
+    <TAX_CONFIRM>\n입력된 세금액이 판매액으로 계산한 예상 세금과 차이가 있습니다.\n거래를 진행하시겠습니까?</TAX_CONFIRM>
+    <STDSALESAMT_CONFIRM>\n일반룸 판매금액이 설정한 금액보다 높습니다. \n다시한번 판매금액을 확인 바랍니다.</STDSALESAMT_CONFIRM>
+    <SUTSALESAMT_CONFIRM>\n스위트룸 판매금액이 설정한 금액보다 높습니다. \n다시한번 판매금액을 확인 바랍니다.</SUTSALESAMT_CONFIRM>  
+
+</KO>
+  <EN>
+    <PassportReadError></PassportReadError>
+  </EN>
+  <JA>
+  
+
+	
+
+	
+    <!--Control Data Check -->
+    <!--passport-->
+
+
+	
+	<!--매장명을 입력하세요.-->
+    <TXT_SHOP_NAME>輸出物品販?場を最初に選?してください。</TXT_SHOP_NAME>
+    <TXT_RCT_NO>영수증번호를 입력하세요.</TXT_RCT_NO>
+	<!--여권이름을 입력하세요.-->
+    <TXT_PASSPORT_NAME>パスポ?トの名前を入力してください。</TXT_PASSPORT_NAME>
+	<!--여권번호를 입력하세요.-->
+    <TXT_PASSPORT_NO>パスポ?ト番?を入力してください。</TXT_PASSPORT_NO>
+    <TXT_PASSPORT_NAT>국적을 입력하세요.</TXT_PASSPORT_NAT>
+    <TXT_PASSPORT_SEX>성별을 입력하세요.</TXT_PASSPORT_SEX>
+    <TXT_PASSPORT_BIRTH>생년월일을 입력하세요.</TXT_PASSPORT_BIRTH>
+    <TXT_PASSPORT_EXP>여권만기일을 입력하세요.</TXT_PASSPORT_EXP>
+    <COM_PASSPORT_TYPE>여권 종류를 선택하세요.</COM_PASSPORT_TYPE>
+    <COM_PASSPORT_NAT>국적을 선택하세요.</COM_PASSPORT_NAT>
+    <COM_PASSPORT_SEX>성별을 선택하세요.</COM_PASSPORT_SEX>
+    <TXT_DATE_LAND>입국일을 입력하세요.</TXT_DATE_LAND>
+    <COM_PASSPORT_RES>체재유형을 선택하세요.</COM_PASSPORT_RES>
+    <GRD_ITEMS>판매 물품을 입력하세요.</GRD_ITEMS>
+
+    <COM_MAIN_CAT>대분류를 선택하세요.</COM_MAIN_CAT>
+    <COM_MID_CAT>중분류를 선택하세요.</COM_MID_CAT>
+    <COM_ITEM_NAME>상품을 선택하세요.</COM_ITEM_NAME>
+    <TXT_QTY>수량을 입력하세요.</TXT_QTY>
+    <TXT_ITEM_AMT>물품판매가격을 입력하세요.</TXT_ITEM_AMT>
+    <TXT_BUY_AMT>총판매액을 입력하세요.</TXT_BUY_AMT>
+    <TXT_REFUND_AMT>환급액을 입력하세요.</TXT_REFUND_AMT>
+    <TXT_TAX_AMT>세금을 입력하세요.</TXT_TAX_AMT>
+    <COM_TAX_TYPE>세금종류를 선택하세요.</COM_TAX_TYPE>
+    
+    <COM_SLIP_TYPE>전표종류를 선택해 주세요.</COM_SLIP_TYPE>
+    
+	<!--터미널 번호를 입력하세요.-->
+	<TXT_TML_ID>端子番?（5桁）を入力してください。</TXT_TML_ID>
+	<!--프린터를 선택하세요.-->
+	<COM_PRINTER>プリンタを選?してください。</COM_PRINTER>
+	
+    <!--Message -->
+    
+	<!--구매물품정보가 없습니다.-->
+    <NO_ITEM>購入物品情報デ?タがありません。</NO_ITEM>
+	<!--조회된 데이터가 없습니다.-->
+	<NO_SERACH_DATA>照?された?票がありません。</NO_SERACH_DATA>
+	
+	<!--전표를 발행 하시겠습니까?-->
+    <REFUND_CONFIRM>?票を?行しますか？</REFUND_CONFIRM>
+    
+	<!--환경설정이 저장되었습니다.-->
+    <CONFIG_SAVE_SUCCESS>環境設定が保存されました。</CONFIG_SAVE_SUCCESS>
+    <CONFIG_SAVE_FAIL></CONFIG_SAVE_FAIL>
+    
+	<!--環境設定をしてください。-->
+    <SYSTEM_INIT>環境設定をしてください。</SYSTEM_INIT>
+	<!--여권스캐너 설정을 하시기 바랍니다.-->
+    <PASSPORT_NOTHING>パスポ?トスキャナの設定をしてください。</PASSPORT_NOTHING>
+	<!--프린터 설정을 하시기 바랍니다.-->
+    <PRINTER_NOTHING>プリンタの設定をしてください。</PRINTER_NOTHING>
+	<!--여권스캐너에 여권이 정상적으로 삽입되어 있는지 확인하세요.-->
+    <PASSPORT_REMOVE>パスポ?トスキャナにパスポ?トが正常に?入されていることを確認します。</PASSPORT_REMOVE>
+	<!--여권스캐너 연결을 확인하세요.-->
+    <PASSPORT_ERROR>パスポ?トスキャナの接?を確認してください。</PASSPORT_ERROR>
+	<!--영수증 번호가 없습니다. 계속진행하시겠습니까?-->
+    <RCT_CONFIRM>レシ?ト番?が未入力です。取引を?行しますか。</RCT_CONFIRM>
+	
+	<LOGIN_BEFORE>ログイン前。</LOGIN_BEFORE>
+	<LOGIN_ID>IDの確認中。</LOGIN_ID>
+	<LOGIN_SHOP>加盟店情報の?み?み中。</LOGIN_SHOP>
+	<LOGIN_ITEM>商品情報の?み?み中。</LOGIN_ITEM>
+	<LOGIN_CODE>?家情報ロ?ド中。</LOGIN_CODE>
+	<LOGIN_CUSTOMS>??情報ロ?ド中。</LOGIN_CUSTOMS>
+	<LOGIN_ADS>?告情報の?み?み中。</LOGIN_ADS>
+	<LOGIN_END>ログイン仕上げ中。</LOGIN_END>
+	
+	<!--초기화 오류. 프로그램을 재 시작해 주시기 바랍니다.-->
+	<ERROR_INIT>初期化エラ?です。プログラムを再起動してください。</ERROR_INIT>
+	<!--전표가 정상적으로 출력되었는지 확인하세요.-->
+	<SLIP_CONFIRM>?票が正常に出力されたことを確認してください。</SLIP_CONFIRM>
+	<REFUND_COMPLETE>還付?理されます</REFUND_COMPLETE>
+	<REFUND_CASH>還金額</REFUND_CASH>
+	<REFUND_CARD>※注意※\n本取引は、UPI取引です。\nお客?への返金は、絶?に行わないでください！\n還金額</REFUND_CARD>
+	<REFUND_QQ>※注意※\n本取引は、QQ取引です。\nお客?への返金は、絶?に行わないでください！\n還金額</REFUND_QQ>	
+	<!--매장정보가 없습니다. 다른 사용자로 로그인 해주시기 바랍니다.-->.
+    <ERROR_SHOP_CNT>店頭情報がありません。別のユ?ザ?としてログインしてください。</ERROR_SHOP_CNT>
+    <ERROR_QTY_CNT>?量を超えています。再入力してください。</ERROR_QTY_CNT>
+	
+	<!--에러가 발생했습니다. 거래를 다시 진행해주시기 바랍니다.-->
+    <ERROR_ISSUE>取引の登?に失敗しました。</ERROR_ISSUE>
+    <ERROR_SUM>合計が不可能な輸出物品販?場です。</ERROR_SUM>
+	
+	<!--환급이 불가능한 카드번호입니다.\n카드번호를 확인해주시기 바랍니다.-->
+	<ERROR_BIN>還付が不可能なカ?ド番?です。\nカ?ド番?をご確認ください。</ERROR_BIN>	
+	<ERROR_CARD_EMPTY>カ?ド番? 登?してください。</ERROR_CARD_EMPTY>
+	<ERROR_QQ_EMPTY>QQ ID 登?してください。</ERROR_QQ_EMPTY>
+	<ERROR_QQ_ID>QQ ID 10000 ? 4294967295間の?字を入力してください。</ERROR_QQ_ID>
+	
+	<!--여권정보 입력요망-->
+	<ERROR_PASSPORT>旅券情報が存在しません。</ERROR_PASSPORT>
+	
+	<!--상륙일은 현재 날짜보다 이전이어야 합니다.\n날짜를 다시 입력해주시기 바랍니다.-->
+	<ERROR_DATE>入力された上陸年月日に誤りがあります。\n正しい日付を入力してください。</ERROR_DATE>
+	<!--상륙일이 6개월 이전이면 전표발행이 불가합니다.\n날짜를 다시 입력해주시기 바랍니다.-->
+	<ERROR_SIX_MONTH>上陸年月日から６ヶ月が過ぎているため還付登?ができません。</ERROR_SIX_MONTH>
+	
+	<ERROR_GOODS_AMT>同日、一般物品最小還付可能金額は5,000円以上です。</ERROR_GOODS_AMT>
+	<ERROR_COMSUMS_AMT>同日、消耗品最小還付可能金額は5,000円以上です。</ERROR_COMSUMS_AMT>
+	
+	<!--물품의 수량을 모두 입력하세요.-->
+	<ERROR_QTY>物品の?量をすべて入力してください。</ERROR_QTY>
+	<!-- 물품의 단가를 모두 입력하세요.-->
+	<ERROR_ITEM_AMT>物品の??をすべて入力してください。</ERROR_ITEM_AMT>
+	<!--물품의 판매금액을 모두 입력하세요.-->
+	<ERROR_BUY_AMT>物品の販?金額をすべて入力してください。</ERROR_BUY_AMT>
+	<!--물품의 세금을 모두 입력하세요.-->
+	<ERROR_TAX_AMT>物品の?金をすべて入力してください。</ERROR_TAX_AMT>
+	<ERROR_CONSUMS_MAX_AMT>同日、同一店?における消耗品購入上限は50万円です。</ERROR_CONSUMS_MAX_AMT>
+	
+	<ITEM_MAX>物品登?は10行までです。</ITEM_MAX>
+	
+	<ERROR_PRINT_DATE>本日?行された?票のみ再出力が可能です。</ERROR_PRINT_DATE>
+	<!--로그인을 하지 못했습니다.\n로그인 정보를 확인해주시기 바랍니다.-->
+	<ERROR_LOGIN>ログインをしていませんでした。\n入力情報を確認してください。</ERROR_LOGIN>
+	<ERROR_LOGIN_CRITICAL>ログイン中にエラ?が?生しました。\nログイン情報を再確認してください。\nプログラムを終了します。</ERROR_LOGIN_CRITICAL>
+	<!--프로그램을 종료하시겠습니까?-->
+	<SYSTEM_EXIT_CONFIRM>プログラムを終了しますか？</SYSTEM_EXIT_CONFIRM>
+	
+	<!--프로그램을 종료하시겠습니까?-->
+
+    <CLOSING>本日のオフライン業務を終了しますか。</CLOSING>
+	<CLOSING_CANCEL>オフライン業務終了をキャンセルしますか。</CLOSING_CANCEL>
+	
+	<!-- 업무마감을 취소하였습니다-->
+	<CLOSING_CANCEL_SUCCESS>オフライン業務終了をキャンセルしました。</CLOSING_CANCEL_SUCCESS>
+	<!--업무마감을 취소하지 못했습니다.-->
+	<CLOSING_CANCEL_FAIL>終業をキャンセルしていました。</CLOSING_CANCEL_FAIL>
+	 
+	<!--서버 미 전송 거래가 존재합니다.\n서버전송 되었는지 확인해 주시기 바랍니다.-->
+    <CLOSING_FAIL>オフライン業務を終了してから再度締め切りを行ってください。</CLOSING_FAIL>
+	<!--업무마감 하였습니다. 프로그램을 종료합니다.-->
+    <CLOSING_YES>オフライン業務終了しました。プログラムを終了します。</CLOSING_YES>
+	<!--업무마감 하지 못했습니다. 관리자 확인이 필요합니다.-->
+	<CLOSING_NO>終業ませんでした。管理者の確認が必要です。</CLOSING_NO>
+	<CLOSING_BLOCK>終業?態です。?い?し?票?行を行うことができません。</CLOSING_BLOCK>
+	<!--프로그램을 종료하시겠습니까?-->
+	<EXIT_CONFIRM>プログラムを終了しますか？</EXIT_CONFIRM>
+	
+	
+	<EMPTY_ID>IDを入力してください。</EMPTY_ID>
+	<EMPTY_PASSWORD>パスワ?ドを入力してください。</EMPTY_PASSWORD>
+	
+    
+        <!--설정파일을 읽지 못했습니다.-->
+    <!--초기화 오류-->
+	
+	
+  </JA>
+</Message>
