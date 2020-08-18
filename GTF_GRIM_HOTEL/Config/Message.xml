@@ -43,9 +43,11 @@
     <ERROR_PASSPORT>\n여권정보를 정확히 입력해 주세요</ERROR_PASSPORT>    
     <TAX_CONFIRM>\n입력된 세금액이 판매액으로 계산한 예상 세금과 차이가 있습니다.\n거래를 진행하시겠습니까?</TAX_CONFIRM>
     <STDSALESAMT_CONFIRM>\n일반룸 판매금액이 설정한 금액보다 높습니다. \n다시한번 판매금액을 확인 바랍니다.</STDSALESAMT_CONFIRM>
-    <SUTSALESAMT_CONFIRM>\n스위트룸 판매금액이 설정한 금액보다 높습니다. \n다시한번 판매금액을 확인 바랍니다.</SUTSALESAMT_CONFIRM>  
+    <SUTSALESAMT_CONFIRM>\n스위트룸 판매금액이 설정한 금액보다 높습니다. \n다시한번 판매금액을 확인 바랍니다.</SUTSALESAMT_CONFIRM>
 
-</KO>
+	<TEST>\n 01.GITHUB TEST입니다. </TEST>
+
+  </KO>
   <EN>
     <PassportReadError></PassportReadError>
   </EN>
